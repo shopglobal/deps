@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-./Configure linux-x86_64 no-shared --static -fPIC
+CFLAGS="-fPIC" CXXFLAGS="-fPIC" ./configure
 sleep 1m
-make build_crypto build_ssl
+make
 sleep 2m
 make install
-echo "DONE installing OpenSSL"
+echo "DONE installing Readline"
