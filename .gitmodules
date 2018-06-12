@@ -2,7 +2,7 @@
 	path = libzmq
 	url = https://github.com/zeromq/libzmq.git
 [submodule "libzmq4.2.3"]
-        path = libzmq
+        path = libzmq4.2.3
         url = https://github.com/zeromq/libzmq.git
 [submodule "cppzmq"]
 	path = cppzmq

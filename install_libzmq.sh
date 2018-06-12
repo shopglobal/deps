@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd libzmq
+cd libzmq4.2.3
 apt-get install autoconf
 ./autogen.sh
 sleep 1m
@@ -11,4 +11,4 @@ make install
 sleep 2m
 ldconfig
 cd ..
-echo "DONE installing OpenSSL"
+echo "DONE installing libZMQ4.2.3"
